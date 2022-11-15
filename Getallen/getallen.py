@@ -1,0 +1,6 @@
+print('voer cijfers in willekeurgie volgorde in')
+nums = list(map(int, input().split()))
+nums.sort()
+nums.reverse()
+print('na het sorteren is dit de juiste volgorde')
+print(*nums)
