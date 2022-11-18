@@ -1,2 +1,2 @@
 # slangen
-Pyton opddrachten
+Pyton opdrachten
