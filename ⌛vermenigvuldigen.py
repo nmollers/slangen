@@ -1,7 +1,8 @@
-n1 = float(input('Voer uw eerste cijfer in: '))
-n2 = float(input('Voer uw tweede cijfer in: '))
+def multiply(a, b):
+    antwoord = a * b
+    return antwoord
 
-def mulitply (n1, n2):   
-    return n1*n2
+n1 = int(input('Voer uw eerste nummer in: '))
+n2 = int(input('Voer uw tweede nummer in: '))
 
-print(mulitply)
+print(multiply(n1, n2))
